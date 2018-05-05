@@ -1,7 +1,7 @@
 ## install packages first
 npm install
 
-## install  aglobal server 
+## install a global server 
 npm install -g http-server
 
 ## Run your server
