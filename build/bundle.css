@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+i {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #3b5998;
+}
+a {
+  color: #3b5998;
+}
+ul {
+  list-style: none;
+}
+input,
+select {
+  padding: 0 5px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  width: 180px;
+  margin: 20px;
+}
+input[type="file"] {
+  border: 0;
+}
+button {
+  background: #3b5998;
+  color: #FFFFFF;
+  border: 1px solid #3b5998;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.btn-cancel {
+  background: #CCCCCC;
+  border-color: #CCCCCC;
+  color: #3b5998;
+}
+button.btn-cancel:disabled {
+  background: #CCCCCC;
+  cursor: not-allowed;
+  color: #999999;
+}
+button:disabled {
+  background: #8b9dc3;
+  cursor: not-allowed;
+}
+header {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #3b5998;
+}
+header img {
+  width: 100px;
+  height: 50px;
+}
+header span {
+  color: #3b5998;
+  font-size: 30px;
+  padding-left: 10px;
+}
+header .welcome-message {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.content-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-content {
+  padding-bottom: 100px;
+}
+footer {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+  border-top: 1px solid #3b5998;
+  padding: 10px;
+  font-size: 16px;
+  color: #3b5998;
+  background: #FFFFFF;
+}
+table {
+  width: 100%;
+  border: 1px solid #3b5998;
+}
+table th,
+table td {
+  padding: 5px;
+  text-align: center;
+}
+table th {
+  background: #3b5998;
+  color: #FFFFFF;
+}
+td.add-button-td {
+  text-align: left;
+}
+.fade {
+  background: #000000;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.popup {
+  position: fixed;
+  z-index: 1000;
+  background: #FFFFFF;
+  width: 600px;
+  height: 500px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 100px;
+}
+.login-box {
+  border: 1px solid;
+  width: 400px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 100px;
+  padding: 20px;
+}
+.login-panel {
+  display: flex;
+  margin-bottom: 10px;
+}
+.login-panel label {
+  width: 150px;
+}
+.required-box {
+  position: relative;
+}
+.error-red {
+  position: absolute;
+  right: -12px;
+  top: 4px;
+  color: #DA0000;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tabstrip {
+  display: flex;
+}
+.tabstrip ul li {
+  padding: 5px;
+  border: 1px solid #666666;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.tab-header {
+  width: 20%;
+}
+.tab-header li {
+  width: 100%;
+}
+.tab-header li.selected {
+  background: #3b5998;
+  color: #FFFFFF;
+}
+.tab-content {
+  padding-left: 20px;
+  width: 70%;
+}
+.search-box {
+  margin-bottom: 10px;
+}
+.add-button-box {
+  margin-bottom: 10px;
+}
+.add-button-box button {
+  margin-left: 0;
+}
+.form-box {
+  border: 1px solid #666666;
+}
+.form-box h3 {
+  display: flex;
+  justify-content: center;
+}
+.form-box .form-panel {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.form-box .form-panel label {
+  width: 150px;
+}
+.icon-column {
+  display: flex;
+  justify-content: center;
+}
+.icon-column i {
+  margin-right: 10px;
+}
+.action-tab {
+  display: flex;
+  justify-content: center;
+}
+.action-tab i {
+  margin: 0 5px;
+}
+.swal2-popup .swal2-styled {
+  padding: 5px;
+}

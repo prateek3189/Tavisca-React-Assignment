@@ -1,0 +1,32 @@
+{
+  "hotels": [
+    {
+        "id": 1,
+        "displayName": "Novotel",
+        "rating": 3,
+        "address": "Some Address",
+        "image": "http://streamafrica.com/wp-content/uploads/2016/01/hotels-4.jpg"
+    },
+    {
+        "id": 2,
+        "displayName": "Hyatt",
+        "rating": 3,
+        "address": "Some Address",
+        "image": "http://rodrepel.com/blog/wp-content/uploads/2017/04/HRH01.jpg"
+    },
+    {
+        "id": 3,
+        "displayName": "Radisson Blu",
+        "rating": 3,
+        "address": "Some Address",
+        "image": "https://www.oberoihotels.com/images/home/agra-home.jpg"
+    },
+    {
+        "id": 4,
+        "displayName": "Sheratton",
+        "rating": 5,
+        "address": "Some Address",
+        "image": "https://ihg.scene7.com/is/image/ihg/Brand-Home_Desktop_Image-5-Travel-fit-even-during-downtime-with-EVEN-Hotels-Premium-Bedding@2x"
+    }
+  ]
+}

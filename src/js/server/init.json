@@ -1,0 +1,27 @@
+{
+   "currency": "USD",
+   "posId": "hbg3h7rf28",
+   "roomOccupancies": [
+      {
+         "occupants": [
+            {
+               "type": "Adult",
+               "age": 25
+            }
+         ]
+      }
+   ],
+   "stayPeriod": {
+      "start": "05-05-2018",
+      "end": "05-08-2018"
+   },
+   "bounds": {
+      "circle": {
+         "center": {
+            "lat": 123,
+            "long": 132
+         },
+         "radiusKm": 50.5
+      }
+   }
+};

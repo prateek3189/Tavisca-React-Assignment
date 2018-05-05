@@ -1,0 +1,278 @@
+@import "_variable";
+
+* {
+    box-sizing: border-box;
+}
+
+i {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Roboto,Oxygen,Ubuntu,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: @primary-blue;
+}
+
+a {
+    color: @primary-blue;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+select {
+    padding: 0 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid @gray9;
+    width: 180px;
+    margin: 20px;
+}
+
+input[type="file"] {
+    border: 0;
+}
+
+button {
+    background: @primary-blue;
+    color: #FFFFFF;
+    border: 1px solid @primary-blue;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &.btn-cancel {
+        background: @grayC;
+        border-color: @grayC;
+        color: @primary-blue;
+
+        &:disabled {
+            background: @grayC;
+            cursor: not-allowed;
+            color: @gray9;
+        }
+    }
+
+    &:disabled {
+        background: @secondary-blue;
+        cursor: not-allowed;
+    }
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid @primary-blue;
+
+    img {
+        width: 100px;
+        height: 50px;
+    }
+
+    span {
+        color: @primary-blue;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .welcome-message {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+.content-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-content {
+    padding-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    border-top: 1px solid @primary-blue;
+    padding: 10px;
+    font-size: 16px;
+    color: @primary-blue;
+    background: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    border: 1px solid @primary-blue;
+
+    th, td {
+        padding: 5px;
+        text-align: center;
+    }
+
+    th {
+        background: @primary-blue;
+        color: #FFFFFF;
+    }
+}
+
+td.add-button-td {
+    text-align: left;
+}
+
+.fade {
+    background: #000000;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.popup {
+    position: fixed;
+    z-index: 1000;
+    background: #FFFFFF;
+    width: 600px;
+    height: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+}
+
+.login-box {
+    border: 1px solid;
+    width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.login-panel {
+    display: flex;
+    margin-bottom: 10px;
+
+    label {
+        width: 150px;
+    }
+}
+
+.required-box {
+    position: relative;
+}
+
+.error-red {
+    position: absolute;
+    right: -12px;
+    top: 4px;
+    color: @red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tabstrip {
+    display: flex;
+}
+
+.tabstrip ul li{
+    padding: 5px;
+    border: 1px solid @gray6;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.tab-header {
+    width: 20%;
+}
+
+.tab-header li {
+    width: 100%;
+
+    &.selected{
+        background: @primary-blue;
+        color: #FFFFFF;
+    }
+}
+
+.tab-content {
+    padding-left: 20px;
+    width: 70%;
+}
+
+// Search
+.search-box {
+    margin-bottom: 10px;
+}
+
+// Add Button
+.add-button-box {
+    margin-bottom: 10px;
+
+    button {
+        margin-left: 0;
+    }
+}
+
+.form-box {
+    border: 1px solid @gray6;
+
+    h3 {
+        display: flex;;
+        justify-content: center;
+    }
+
+    .form-panel {
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+
+        label {
+            width: 150px;
+        }
+    }
+}
+
+// Friends List
+.icon-column {
+    display: flex;
+    justify-content: center;
+
+    i {
+        margin-right: 10px;
+    }
+}
+
+.action-tab {
+    display: flex;
+    justify-content: center;
+
+    i {
+        margin: 0 5px;
+    }
+}
+.swal2-popup .swal2-styled {
+    padding: 5px;
+}
